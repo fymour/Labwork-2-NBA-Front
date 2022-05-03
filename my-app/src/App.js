@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Button from './components/button/button'
+
 
 function App() {
+  const handleClick = () =>{
+    console.log('button 1 clicked');
+  }
+  const handleClickTwo = () =>{
+    console.log('button 2 clicked');
+  }
+  const handleClickThree = () =>{
+    alert('button 3 clicked');
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button
+      type="white" onClick ={handleClick}
+      >
+        Button 1
+      </Button>
+      <Button
+      type ="brown"
+      onClick ={handleClickTwo}
+      >
+        Button 2
+      </Button>
+      <Button
+      type = "round-black"
+      onClick ={handleClickThree}
+      >
+        Button 3
+      </Button>
     </div>
   );
 }
