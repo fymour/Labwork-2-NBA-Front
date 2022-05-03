@@ -1,0 +1,35 @@
+.header{
+    width: 80%;
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation{
+    align-items: center;
+    justify-content: center;
+}
+#horizontal-list{
+    list-style: none; 
+    min-width: 400px;
+    padding: 20px;
+}
+#horizontal-list li{
+    display: inline;
+    margin: 0px 40px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navimage img{
+    margin: 0 27px;
+}
