@@ -1,0 +1,213 @@
+.pagemain{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+.bone{
+    width: 80%;
+    margin: auto;
+}
+.item-container{
+    width: auto;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.text-title{
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+    
+}
+.title-text{
+    padding-bottom: 24px;
+    border-bottom: 3px solid white;
+    
+}
+.text-title .title-text span{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.red{
+    width: 100%;
+    height: 82px;
+    border-bottom: 3px solid white ;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.text-title .red span{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: red;
+}
+.white{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+
+
+
+}
+.text-title .white span{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    border-bottom: 3px solid white;
+
+}
+.last-text{
+    width: 40%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+}
+.last-text span{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.kits{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nbakit-one {
+    width: 33%;
+    display: flex;
+    padding-top: 16px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    
+}
+.nbakit-one img{
+    width: 90%;
+}
+.nbakit-one span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: -70px;
+    padding-bottom: 4px;
+
+}
+
+.nbakit-one p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.5;
+    text-align: left;
+    margin-left: -120px;
+}
+.nbakit-one .price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 40px;
+    margin-left: -300px;
+}
+.nba-kit-two {
+    width: 33%;
+    display: flex;
+    padding-top: 16px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+.nba-kit-two img{
+    width: 90%;
+
+}
+.nba-kit-two span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: -70px;
+    padding-bottom: 4px;
+
+}
+
+.nba-kit-two p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.5;
+    text-align: left;
+    margin-left: -120px;
+}
+.nba-kit-two .price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 40px;
+    margin-left: -300px;
+}
+.nbakit-three {
+    width: 33%;
+    display: flex;
+    padding-top: 16px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+.nbakit-three img{
+    width: 90%;
+
+}
+.nbakit-three span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: -70px;
+    padding-bottom: 4px;
+}
+
+.nbakit-three p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.5;
+    text-align: left;
+    margin-left: -120px;
+}
+.nbakit-three .price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+    padding-top: 40px;
+    margin-left: -300px;
+}

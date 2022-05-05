@@ -18,7 +18,7 @@ export default function Main(){
                 </div>
                 <div className="bottomcontain">
                     <div className="textin">
-                    <p>WHICHEVER <span className='nba'>NBA</span> <span className="team">TEAM</span> YOUR SUPPORT, GET YOUR JERSEY HERE TODAY.</p>
+                    <p>WHICHEVER <span className='nba'>NBA</span>  <span className="team">TEAM</span> YOUR SUPPORT, GET YOUR JERSEY HERE TODAY.</p>
                     </div>
                 </div>
                 <div className="image">
