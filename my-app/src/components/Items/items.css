@@ -54,9 +54,6 @@
     display: flex;
     align-items: center;
     padding: 10px 0px;
-
-
-
 }
 .text-title .white span{
     font-family: 'Orbitron', sans-serif;
@@ -78,16 +75,16 @@
     font-size: 18px;
     font-weight: 600;
 }
-.kits{
+.product{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 30px;
 }
 
-.nbakit-one {
-    width: 33%;
+.nbakit {
+    width: 40%;
     display: flex;
     padding-top: 16px;
     align-items: center;
@@ -95,10 +92,10 @@
     margin: 0px;
     
 }
-.nbakit-one img{
+.nbakit img{
     width: 90%;
 }
-.nbakit-one span{
+.nbakit__name{
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
@@ -110,7 +107,7 @@
 
 }
 
-.nbakit-one p{
+.nbakit__description{
     font-family: 'Roboto', sans-serif;
     margin-top: 4px;
     font-size: 19px;
@@ -120,7 +117,7 @@
     text-align: left;
     margin-left: -120px;
 }
-.nbakit-one .price {
+.nbakit__price {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
@@ -128,86 +125,13 @@
     padding-top: 40px;
     margin-left: -300px;
 }
-.nba-kit-two {
-    width: 33%;
+
+.footer{
     display: flex;
-    padding-top: 16px;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px;
+    justify-content: space-between;
+    color: red  ;
 }
-.nba-kit-two img{
-    width: 90%;
-
-}
-.nba-kit-two span{
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: 300;
+.footer span{
     color: white;
-    padding-top: 20px;
-    text-align: left;
-    margin-left: -70px;
-    padding-bottom: 4px;
-
-}
-
-.nba-kit-two p{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 4px;
-    font-size: 19px;
-    font-weight: 300;
-    color: white;
-    opacity: 0.5;
-    text-align: left;
-    margin-left: -120px;
-}
-.nba-kit-two .price {
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: 300;
-    color: white;
-    padding-top: 40px;
-    margin-left: -300px;
-}
-.nbakit-three {
-    width: 33%;
-    display: flex;
-    padding-top: 16px;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px;
-}
-.nbakit-three img{
-    width: 90%;
-
-}
-.nbakit-three span{
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: 300;
-    color: white;
-    padding-top: 20px;
-    text-align: left;
-    margin-left: -70px;
-    padding-bottom: 4px;
-}
-
-.nbakit-three p{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 4px;
-    font-size: 19px;
-    font-weight: 300;
-    color: white;
-    opacity: 0.5;
-    text-align: left;
-    margin-left: -120px;
-}
-.nbakit-three .price {
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: 300;
-    color: white;
-    padding-top: 40px;
-    margin-left: -300px;
+    
 }

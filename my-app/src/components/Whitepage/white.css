@@ -1,0 +1,115 @@
+.main{
+    width: 80%;
+    margin:auto;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+.first{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+.second{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.second .one{
+    color: blue;
+    padding-right: 20px;
+}
+.third{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.third .every{
+    color: red;
+    padding-right: 20px;
+}
+.fourth{
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+
+    line-height: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+.fifth{
+    width: 100%;
+    display: flex;
+}
+.fifth .east{
+    width: 50%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    margin-right: 40px  ;
+    border-bottom: 3px solid #0949EF;
+}
+.fifth .west{
+    width: 50%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid red;
+    padding-bottom: 20px;
+}
+.teams{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.east-team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    row-gap: 10px;
+    column-gap: 8px;
+}
+.eastteam-img img{
+    width: 105px;
+}
+.west-team{
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    column-gap: 8px;
+    row-gap: 10px;
+}
+.westteam-img img{
+    width: 105px;
+
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px ;
+}
+.footer span{
+    padding-right: 20px;
+    color: black;
+}
