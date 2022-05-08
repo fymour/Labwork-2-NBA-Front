@@ -29,18 +29,18 @@ export default function White ({
             </div>
             <div className="teams">
                 <div className="east-team">
-                    {playersEast.map(item => {
+                    {playersEast.map((item, o)=> {
                         return(
-                        <div className='eastteam-img'>
+                        <div key={o} className='eastteam-img'>
                             <img src={item.img} alt='2332'/>
                         </div>
                         )
                     })}
                 </div>
                 <div className="west-team">
-                    {playersWest.map(item =>{
+                    {playersWest.map((item, o)=>{
                         return(
-                            <div className="westteam-img">
+                            <div key={o} className="westteam-img">
                                 <img src={item.img} alt="22" />
                             </div>
                         )

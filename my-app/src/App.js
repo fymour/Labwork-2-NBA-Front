@@ -3,9 +3,11 @@ import Header from './components/Header/header'
 import Main from "./components/Main/main"
 
 import Items from './components/Items/items'
-import ItemsaddOn from './components/Items/itemsaddon'
+import ItemsAddon from './components/Items/itemsaddon'
 import Products from './components/objects/product.json'
 
+import ItemsKobe from './components/ItemsKobe/itemforkobe'
+import ProductsKobe from './components/objects/productskobe.json'
 
 import White from './components/Whitepage/white';
 import eastteam from './components/objects/east-team.json'
@@ -13,7 +15,7 @@ import westteam from './components/objects/west-team.json'
 
 import './App.css'
 function App() {
-  console.log(Products);
+  console.log(ProductsKobe);
   return (
     <div className="App">
       <Header />
@@ -23,7 +25,7 @@ function App() {
       <Items
         title="bestsellers"
         colortitle={
-          <ItemsaddOn
+          <ItemsAddon
             firstText="BESTSELLER"
             firstColor="#FB0223"
           />
@@ -38,6 +40,23 @@ function App() {
         playersEast={eastteam}
         playersWest={westteam}
       />
+
+      <ItemsKobe
+        title="KOBE BRYANT"
+        colortitle={
+          <ItemsAddon
+            firstText="KOBE"
+            firstColor="YELLOW"
+            secondText="BRYANT"
+            secondColor="PURPLE"
+          />
+        }
+        collection="AUTHENTIC EDITION"
+        subTitle="IN HIS 20 SEASONS WITH THE LAKERS. THE LEGACY OF KOBE BRYANT WAS A FAR-REACHING ONE. "
+        products={ProductsKobe}
+      />
+
+
     </div>
   );
 }

@@ -2,6 +2,7 @@
     width: 100%;
     height: 1000px;
     background-color: black;
+    margin-bottom: -10px;
 }
 .bone{
     width: 80%;
@@ -35,18 +36,23 @@
 }
 .red{
     width: 100%;
-    height: 82px;
+    /* height: 82px; */
     border-bottom: 3px solid white ;
     padding-bottom: 10px;
     display: flex;
-    align-items: center;
-
+    flex-wrap: nowrap;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    
 }
 .text-title .red span{
     font-family: 'Orbitron', sans-serif;
     font-size: 65px;
     font-weight: 800;
-    color: red;
+    
+
 }
 .white{
     width: 100%;
@@ -81,6 +87,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
+    /* margin-bottom: 50px; */
 }
 
 .nbakit {
@@ -127,11 +134,17 @@
 }
 
 .footer{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    color: red  ;
-}
-.footer span{
     color: white;
-    
+
+}
+.footer p{
+    position: relative;
+    left: 1.5%;
+}
+.footer img{
+    position: relative;
+    left: 85%;
 }
