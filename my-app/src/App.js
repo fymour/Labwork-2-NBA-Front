@@ -13,6 +13,8 @@ import White from './components/Whitepage/white';
 import eastteam from './components/objects/east-team.json'
 import westteam from './components/objects/west-team.json'
 
+import Hall from './components/HallofFame/hall'
+
 import './App.css'
 function App() {
   console.log(ProductsKobe);
@@ -52,8 +54,10 @@ function App() {
           />
         }
         collection="AUTHENTIC EDITION"
-        subTitle="IN HIS 20 SEASONS WITH THE LAKERS. THE LEGACY OF KOBE BRYANT WAS A FAR-REACHING ONE. "
+        subtitle="KOBE BRYANT: A BASKETBALL LEGEND. BRYANT CRAFTED A STORIED CAREER IN HIS 20 SEASONS WITH THE LAKERS. THE LEGACY OF KOBE BRYANT WAS A FAR-REACHING ONE. "
         products={ProductsKobe}
+      />
+      <Hall
       />
 
 

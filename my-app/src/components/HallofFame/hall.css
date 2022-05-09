@@ -1,0 +1,128 @@
+.bone-two{
+    width: 80%;
+    margin:auto;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+.first{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+.second{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.second .one{
+    color: red;
+    padding-right: 20px;
+}
+.third{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.third .every{
+    color: black;
+    padding-right: 20px;
+}
+.fourth{
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 3px solid black;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+.fifth{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 3px solid black;
+
+}
+.fifth span{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.fifth p{
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+    margin: 0px;
+}
+
+.sixth{
+    width: 100%;
+    height: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+    position: relative;
+    top: 10px;
+}
+.seventh{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.seventh h1{
+    color: red;
+    font-size: 40px;
+}
+.seventh .michael{
+    color:black;
+    padding-left: 20px;
+}
+.eighth{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.eighth h1{
+    color: red;
+    font-size: 40px;
+}
+.eighth .david{
+    color:black;
+    padding-left: 20px;
+}
