@@ -1,5 +1,5 @@
 import './items.css'
-import grouptwo from '../Assets/Group2.png'
+import grouptwo from '../../Assets/Group2.png'
 
 export default function Items(
    { title,
@@ -36,7 +36,7 @@ export default function Items(
                     {product.map((item, i)=>{
                         return(
                             <div key={i} className="nbakit">
-                                <img width={307} height={373} src={item.image} alt="" />
+                                <img width={307} height={373} src={item.image}/>
                                 <div className="nbakit__name">{item.name}</div>
                                 <div className="nbakit__description">{item.description}</div>
                                 <div className="nbakit__price">{item.price}</div>
@@ -46,7 +46,7 @@ export default function Items(
                 </div>
                 <div className="footer">
                     <span>View all</span>
-                    <img src={grouptwo} alt="" />
+                    <img src={grouptwo}/>
                 </div>
             </div>
         </div>

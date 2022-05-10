@@ -1,6 +1,6 @@
 import './main.css'
-import logo from '../Assets/Mainlogo.png'
-import pict from '../Assets/Pict.png'
+import logo from '../../Assets/Mainlogo.png'
+import pict from '../../Assets/Pict.png'
 export default function Main(){
     return(
         <main>
@@ -13,7 +13,7 @@ export default function Main(){
             <div className="contain">
                 <div className="titlecontain">
                     <span>JERSEY</span>
-                    <img src={logo} alt="" />
+                    <img src={logo}/>
                     <span>NBA</span>
                 </div>
                 <div className="bottomcontain">
@@ -22,7 +22,7 @@ export default function Main(){
                     </div>
                 </div>
                 <div className="image">
-                        <img src={pict} alt="" />
+                        <img src={pict} />
                     </div>
             </div>
         </main>
