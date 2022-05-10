@@ -34,7 +34,7 @@ export default function ItemsforUsa({
                     {products.map((item, p) => {
                         return (
                             <div  key={p} className="nbakit">
-                                <img width={307} height={373} src={item.image}/>
+                                <img width={307} height={373} src={item.image}alt=""/>
                                 <div className="nbakit__name">{item.name}</div>
                                 <div className="nbakit__description">{item.description}</div>
                                 <div className="nbakit__price">{item.price}</div>
@@ -44,7 +44,7 @@ export default function ItemsforUsa({
                 </div>
                 <div className="footer">
                     <span className='vieww'>View all</span>
-                    <img src={lineview}/>
+                    <img src={lineview}alt=""/>
                 </div>
             </div>
         </div>

@@ -29,30 +29,30 @@ export default function Hall() {
                     <span>2012</span>
                 </div>
                 <div className="sixth">
-                    <img src={yearline}/>
+                    <img src={yearline}alt=""/>
                 </div>
                 <div className="seventh">
                     <h1>MICHAEL</h1>
                     <h1 className="michael">JORDAN</h1>
                     <span>View</span>
-                    <img src={lineview}/>
+                    <img src={lineview}alt=""/>
                 </div>
                 <div className="eighth">
                     <h1 className="david">DAVID</h1>
                     <h1>ROBINSON</h1>
                     <span>View</span>
-                    <img src={lineview}/>
+                    <img src={lineview}alt=""/>
 
                 </div>
                 <div className="nineth">
                     <h1 className="one">JOHN STOCKTON</h1>
                     <span>View</span>
-                    <img src={lineview}/>
+                    <img src={lineview}alt=""/>
 
                 </div>
                 <div className="footer">
                     <span>Official site</span>
-                    <img src={lineview}/>
+                    <img src={lineview}alt=""/>
                 </div>
                 
             </div>

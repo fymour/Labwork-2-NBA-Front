@@ -10,7 +10,7 @@ export default function Header() {
         <header className='header'>
             <div className="logo">
                 <Link to="/">
-                    <img src={logo}/>
+                    <img src={logo}alt=""/>
                 </Link>
             </div>
             <div className="navigation">
@@ -28,9 +28,9 @@ export default function Header() {
             </div>
             <div className="links">
                 <div className="navimage">
-                    <img src={icon1}/>
-                    <img src={icon2}/>
-                    <img src={icon3} />
+                    <img src={icon1}alt=""/>
+                    <img src={icon2}alt=""/>
+                    <img src={icon3} alt=""/>
                 </div>
             </div>
         </header>

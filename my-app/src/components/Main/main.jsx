@@ -13,7 +13,7 @@ export default function Main(){
             <div className="contain">
                 <div className="titlecontain">
                     <span>JERSEY</span>
-                    <img src={logo}/>
+                    <img src={logo}alt=""/>
                     <span>NBA</span>
                 </div>
                 <div className="bottomcontain">
@@ -22,7 +22,7 @@ export default function Main(){
                     </div>
                 </div>
                 <div className="image">
-                        <img src={pict} />
+                        <img src={pict}alt=""/>
                     </div>
             </div>
         </main>

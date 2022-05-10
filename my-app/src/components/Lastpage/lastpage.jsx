@@ -22,7 +22,7 @@ export default function Lastpage() {
                 </div>
             </div>
             <div className="photo">
-                <img src={photolast} />
+                <img src={photolast} alt=""/>
             </div>
             <div className="descr">
                 <span className='spec'>Nike Traning Club</span>
@@ -30,7 +30,7 @@ export default function Lastpage() {
             </div>
             <div className="footer">
                 <span className='vieww'>View all</span>
-                <img src={linevieww}/>
+                <img src={linevieww}alt=""/>
             </div>
         </div>
     )
