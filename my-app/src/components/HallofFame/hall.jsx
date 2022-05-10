@@ -52,7 +52,7 @@ export default function Hall() {
                 </div>
                 <div className="footer">
                     <span>Official site</span>
-                    <img src={lineview}alt=""/>
+                    <img src={lineview}alt="" />
                 </div>
                 
             </div>
