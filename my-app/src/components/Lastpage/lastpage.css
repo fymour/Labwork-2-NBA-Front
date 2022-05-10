@@ -1,0 +1,94 @@
+.skeletone{
+    width: 80%;
+    margin:auto;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+.first{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+.second{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.second .one{
+    color: #77D131;
+    padding-right: 20px;
+}
+.third{
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.third .every{
+    color: black;
+    padding-right: 20px;
+}
+.fourth{
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 0px solid white;
+}
+.photo{
+    width: 100%;
+    margin: 10px 0px;
+}
+.descr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.descr .spec {
+    font-size: 19px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.descr p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    opacity: 0.5;
+    margin-top: 4px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.footer .vieww{
+    color: black;
+}
+.footer img{
+    position: relative;
+    left: -1000px;
+}

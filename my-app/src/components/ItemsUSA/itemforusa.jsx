@@ -1,6 +1,6 @@
 // import grouptwo from '../Assets/Group2.png'
 import lineview from '../Assets/Line7.png'
-export default function ItemsforKobe({
+export default function ItemsforUsa({
     title,
     colortitle,
     collection,

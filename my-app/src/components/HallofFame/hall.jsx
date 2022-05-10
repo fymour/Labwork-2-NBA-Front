@@ -1,5 +1,6 @@
 import './hall.css'
 import yearline from '../Assets/Slider.png'
+import lineview from '../Assets/Line7.png'
 
 export default function Hall() {
     return (
@@ -33,13 +34,25 @@ export default function Hall() {
                 <div className="seventh">
                     <h1>MICHAEL</h1>
                     <h1 className="michael">JORDAN</h1>
+                    <span>View</span>
+                    <img src={lineview} alt />
                 </div>
                 <div className="eighth">
                     <h1 className="david">DAVID</h1>
                     <h1>ROBINSON</h1>
+                    <span>View</span>
+                    <img src={lineview} alt />
+
                 </div>
                 <div className="nineth">
                     <h1 className="one">JOHN STOCKTON</h1>
+                    <span>View</span>
+                    <img src={lineview} alt />
+
+                </div>
+                <div className="footer">
+                    <span>Official site</span>
+                    <img src={lineview} alt="" />
                 </div>
                 
             </div>

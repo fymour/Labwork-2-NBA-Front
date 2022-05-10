@@ -9,11 +9,18 @@ import Products from './components/objects/product.json'
 import ItemsKobe from './components/ItemsKobe/itemforkobe'
 import ProductsKobe from './components/objects/productskobe.json'
 
+import ItemsUsa from './components/ItemsUSA/itemforusa'
+import Productsusa from './components/objects/productsusa.json'
+
+
+
 import White from './components/Whitepage/white';
 import eastteam from './components/objects/east-team.json'
 import westteam from './components/objects/west-team.json'
 
 import Hall from './components/HallofFame/hall'
+
+import LastPage from './components/Lastpage/lastpage'
 
 import './App.css'
 function App() {
@@ -59,7 +66,22 @@ function App() {
       />
       <Hall
       />
-
+      <ItemsUsa
+        title="1992 TEAM USA"
+        colortitle={
+          <ItemsAddon
+            firstText="1992"
+            firstColor="BLUE"
+            secondText="TEAM USA"
+            secondColor="RED"
+          />
+        }
+        collection="AUTHENTIC EDITION"
+        subtitle="JERSEYS OF THE UNITED SATES MAN'S OLYMPICS BASKETBALL TEAM, WHICH REPRESENTED THE US OF A IN THE 1992 SUMMER OLYMPICS IN BARCELONA. "
+        products={Productsusa}
+      />
+      <LastPage
+      />
 
     </div>
   );
