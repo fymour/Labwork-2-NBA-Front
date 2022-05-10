@@ -1,5 +1,5 @@
 import './white.css'
-import linesvg from '../Assets/Line7.png'
+import linesvg from '../../Assets/Line7.png'
 export default function White ({
     playersEast,
     playersWest,

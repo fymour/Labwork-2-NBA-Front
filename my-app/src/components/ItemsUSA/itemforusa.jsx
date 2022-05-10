@@ -1,5 +1,5 @@
 // import grouptwo from '../Assets/Group2.png'
-import lineview from '../Assets/Line7.png'
+import lineview from '../../Assets/Line7.png'
 export default function ItemsforUsa({
     title,
     colortitle,
@@ -31,10 +31,10 @@ export default function ItemsforUsa({
 
                 <div className="product">
 
-                    {products.map((item,) => {
+                    {products.map((item, p) => {
                         return (
-                            <div  className="nbakit">
-                                <img width={307} height={373} src={item.image} alt="" />
+                            <div  key={p} className="nbakit">
+                                <img width={307} height={373} src={item.image}/>
                                 <div className="nbakit__name">{item.name}</div>
                                 <div className="nbakit__description">{item.description}</div>
                                 <div className="nbakit__price">{item.price}</div>
@@ -44,7 +44,7 @@ export default function ItemsforUsa({
                 </div>
                 <div className="footer">
                     <span className='vieww'>View all</span>
-                    <img src={lineview} alt="" />
+                    <img src={lineview}/>
                 </div>
             </div>
         </div>
